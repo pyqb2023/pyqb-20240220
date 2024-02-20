@@ -109,7 +109,7 @@ pass
 # - a parameter $\alpha$ is normally distributed with $\mu = 0$ and $\sigma = 1$ 
 # - a parameter $\beta$ is normally distributed with $\mu = 1$ and $\sigma = 1$ 
 # - a parameter $\gamma$ is exponentially distributed with $\lambda = 1$
-# - the observed `mean_ecg_delta` is normally distributed with standard deviation $\gamma$ and a mean given by $\alpha + \beta \cdot W$ (where $$ is the correspondig value of `S-Adenosyl-L-methioninamine`).
+# - the observed `mean_ecg_delta` is normally distributed with standard deviation $\gamma$ and a mean given by $\alpha + \beta \cdot W$ (where $W$ is the correspondig value of `weight`).
 #
 # Code this model with pymc, sample the model, and plot the summary of the resulting estimation by using `az.plot_posterior`. 
 #
